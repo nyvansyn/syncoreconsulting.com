@@ -1,0 +1,57 @@
+.bg-orange {
+   background-color: #d8610c;
+}
+
+/* button orange active */
+.btn.bg-orange-active {
+   background: rgba(249, 115, 22, 0.2);
+   color: #f46a35;
+   font-weight: 600;
+   text-decoration: underline;
+}
+
+.btn.bg-orange-active:hover,
+.btn.bg-orange-active:active,
+.btn.bg-orange-active:focus {
+   background: rgba(249, 115, 22, 0.2);
+   color: #f46a35;
+   font-weight: 600;
+   text-decoration: underline;
+}
+
+/* button orange */
+.btn.btn-orange {
+   background-color: #f46a35;
+   color: #fff;
+}
+
+.btn.btn-orange:hover,
+.btn.btn-orange:active,
+.btn.btn-orange:focus {
+   background-color: #ef4a08;
+   color: #fff;
+}
+
+ul.pagination li.page-item.active span{
+   background-color: #f46a35;
+   border-color: #f46a35;
+   color: #fff;
+}
+
+ul.pagination li.page-item a.page-link {
+   color: #555;
+}
+
+trix-toolbar  button.trix-button.trix-button--icon.trix-button--icon-attach {
+   display: none;
+}
+
+trix-editor {
+   height: 200px;
+   max-height: 500px;
+   overflow: scroll;
+}
+
+trix-editor.is-invalid {
+   border: 1px solid #e74a3b;
+}
